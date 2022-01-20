@@ -1,0 +1,5246 @@
+Reading Unweighted Graph
+n = 2097152 m = 0
+Read Unweighted Graph
+Vertices
+used: 3735552, allocated: 5111808, node size: 56, bytes: 286261248
+used: 209190912
+Tree list nodes
+used: 3735552, allocated: 5177344, node size: 48, bytes: 248512512
+used: 179306496
+compressed lists 2 printing stats
+lists8: Used: 1376256, allocated: 1376256, node size: 8, bytes: 11010048
+lists16: Used: 1376256, allocated: 1376256, node size: 16, bytes: 22020096
+lists32: Used: 1376256, allocated: 1376256, node size: 32, bytes: 44040192
+lists64: Used: 1376256, allocated: 1376256, node size: 64, bytes: 88080384
+lists128: Used: 688128, allocated: 688128, node size: 128, bytes: 88080384
+lists256: Used: 344064, allocated: 344064, node size: 256, bytes: 88080384
+lists512: Used: 172032, allocated: 172032, node size: 512, bytes: 88080384
+lists1024: Used: 86016, allocated: 86016, node size: 1024, bytes: 88080384
+lists2048: Used: 43008, allocated: 43008, node size: 2048, bytes: 88080384
+lists4096: Used: 21504, allocated: 21504, node size: 4096, bytes: 88080384
+lists8192: Used: 10752, allocated: 10752, node size: 8192, bytes: 88080384
+lists16384: Used: 5376, allocated: 5376, node size: 16384, bytes: 88080384
+Total bytes for node allocators: 869793792
+stats before build
+
+built all vertices
+Vertices
+used: 3735552, allocated: 5111808, node size: 56, bytes: 286261248
+used: 209190912
+Tree list nodes
+used: 3735552, allocated: 5177344, node size: 48, bytes: 248512512
+used: 179306496
+compressed lists 2 printing stats
+lists8: Used: 1376256, allocated: 1376256, node size: 8, bytes: 11010048
+lists16: Used: 1376256, allocated: 1376256, node size: 16, bytes: 22020096
+lists32: Used: 1376256, allocated: 1376256, node size: 32, bytes: 44040192
+lists64: Used: 1376256, allocated: 1376256, node size: 64, bytes: 88080384
+lists128: Used: 688128, allocated: 688128, node size: 128, bytes: 88080384
+lists256: Used: 344064, allocated: 344064, node size: 256, bytes: 88080384
+lists512: Used: 172032, allocated: 172032, node size: 512, bytes: 88080384
+lists1024: Used: 86016, allocated: 86016, node size: 1024, bytes: 88080384
+lists2048: Used: 43008, allocated: 43008, node size: 2048, bytes: 88080384
+lists4096: Used: 21504, allocated: 21504, node size: 4096, bytes: 88080384
+lists8192: Used: 10752, allocated: 10752, node size: 8192, bytes: 88080384
+lists16384: Used: 5376, allocated: 5376, node size: 16384, bytes: 88080384
+Total bytes for node allocators: 869793792
+stats after parallel build
+
+Vertices
+used: 5832704, allocated: 6029312, node size: 56, bytes: 337641472
+used: 326631424
+Tree list nodes
+used: 3735552, allocated: 5177344, node size: 48, bytes: 248512512
+used: 179306496
+compressed lists 2 printing stats
+lists8: Used: 1376256, allocated: 1376256, node size: 8, bytes: 11010048
+lists16: Used: 1376256, allocated: 1376256, node size: 16, bytes: 22020096
+lists32: Used: 1376256, allocated: 1376256, node size: 32, bytes: 44040192
+lists64: Used: 1376256, allocated: 1376256, node size: 64, bytes: 88080384
+lists128: Used: 688128, allocated: 688128, node size: 128, bytes: 88080384
+lists256: Used: 344064, allocated: 344064, node size: 256, bytes: 88080384
+lists512: Used: 172032, allocated: 172032, node size: 512, bytes: 88080384
+lists1024: Used: 86016, allocated: 86016, node size: 1024, bytes: 88080384
+lists2048: Used: 43008, allocated: 43008, node size: 2048, bytes: 88080384
+lists4096: Used: 21504, allocated: 21504, node size: 4096, bytes: 88080384
+lists8192: Used: 10752, allocated: 10752, node size: 8192, bytes: 88080384
+lists16384: Used: 5376, allocated: 5376, node size: 16384, bytes: 88080384
+Total bytes for node allocators: 869793792
+stats after multi_insert
+
+PBBS time: Build time: 0.0682
+created sstream thread
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+root:1
+1
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+2
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+1 0.1216::0.001556
+
+deleting 1
+2 0.04024::0.00582
+
+3
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 2
+3 0.04922::0.001118
+
+4
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 3
+4 0.08774::0.01262
+
+5
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 4
+5 0.0676::0.003417
+
+6
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 5
+6 0.05622::0.002207
+
+7
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 6
+7 0.06989::0.004352
+
+8
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 7
+8 0.05829::0.01426
+
+9
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 8
+9 0.08696::0.002737
+
+10
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 9
+10 0.05724::0.01368
+
+11
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 10
+11 0.07435::0.002859
+
+12
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 11
+12 0.0604::0.001285
+
+13
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 12
+13 0.08334::0.001449
+
+14
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 13
+14 0.07825::0.00144
+
+15
+
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 2228224
+deleting 14
+15 0.05633::0.00126
+
+16
+
+insert, nn = 2097152
+running sample sort
+16 0.08044::0.001722
+
+delete, nn = 2097152
+running sample sort
+deleting 15
+17
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+17 0.127::0.00149
+
+deleting 16
+18
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+18 0.1263::0.001478
+
+deleting 17
+19
+
+insert, nn = 2097152
+running sample sort
+19 0.1177::0.001436
+
+delete, nn = 2097152
+running sample sort
+deleting 18
+20
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+20 0.12::0.003411
+
+deleting 19
+21
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+21 0.128::0.00312
+
+deleting 20
+22
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+22 0.09793::0.001513
+
+deleting 21
+23
+
+insert, nn = 2097152
+running sample sort
+23 0.1176::0.001749
+
+delete, nn = 2097152
+running sample sort
+deleting 22
+24
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+24 0.1228::0.001625
+
+deleting 23
+25
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+25 0.1166::0.001644
+
+deleting 24
+26
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+26 0.1259::0.001639
+
+deleting 25
+27
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+27 0.1187::0.001668
+
+deleting 26
+28
+
+insert, nn = 2097152
+running sample sort
+28 0.1176::0.001763
+
+delete, nn = 2097152
+running sample sort
+deleting 27
+29
+
+insert, nn = 2097152
+running sample sort
+29 0.1166::0.002091
+
+delete, nn = 2097152
+running sample sort
+deleting 28
+30
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+30 0.1245::0.001983
+
+deleting 29
+31
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+31 0.1157::0.001988
+
+deleting 30
+32
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+32 0.1143::0.002528
+
+deleting 31
+33
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+33 0.1162::0.001916
+
+deleting 32
+34
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+34 0.1174::0.001851
+
+deleting 33
+35
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+35 0.1235::0.001665
+
+deleting 34
+36
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+36 0.1255::0.01066
+
+deleting 35
+37
+
+insert, nn = 2097152
+running sample sort
+37 0.09191::0.002506
+
+delete, nn = 2097152
+running sample sort
+deleting 36
+38
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+38 0.1181::0.01275
+
+deleting 37
+39
+
+insert, nn = 2097152
+running sample sort
+39 0.1048::0.00236
+
+delete, nn = 2097152
+running sample sort
+deleting 38
+40
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+40 0.1268::0.00182
+
+deleting 39
+41
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+41 0.1223::0.001993
+
+deleting 40
+42
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+42 0.1224::0.002004
+
+deleting 41
+43
+
+insert, nn = 2097152
+running sample sort
+43 0.1172::0.001976
+
+delete, nn = 2097152
+running sample sort
+deleting 42
+44
+
+insert, nn = 2097152
+running sample sort
+44 0.1187::0.002034
+
+delete, nn = 2097152
+running sample sort
+deleting 43
+45
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+45 0.1315::0.003592
+
+deleting 44
+46
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+46 0.1002::0.002056
+
+deleting 45
+47
+
+insert, nn = 2097152
+running sample sort
+47 0.1225::0.002398
+
+delete, nn = 2097152
+running sample sort
+deleting 46
+48
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+48 0.121::0.002096
+
+deleting 47
+49
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+49 0.1173::0.001939
+
+deleting 48
+50
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+50 0.1179::0.005293
+
+deleting 49
+51
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+51 0.1178::0.002011
+
+deleting 50
+52
+
+insert, nn = 2097152
+running sample sort
+52 0.1155::0.002232
+
+delete, nn = 2097152
+running sample sort
+deleting 51
+53
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+53 0.1216::0.002157
+
+deleting 52
+54
+
+insert, nn = 2097152
+running sample sort
+54 0.116::0.002148
+
+delete, nn = 2097152
+running sample sort
+deleting 53
+55
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+55 0.132::0.004957
+
+deleting 54
+56
+
+insert, nn = 2097152
+running sample sort
+56 0.09441::0.002207
+
+delete, nn = 2097152
+running sample sort
+deleting 55
+57
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+57 0.116::0.002029
+
+deleting 56
+58
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+58 0.1166::0.002165
+
+deleting 57
+59
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+59 0.1232::0.002144
+
+deleting 58
+60
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+60 0.1203::0.002224
+
+deleting 59
+61
+
+insert, nn = 2097152
+running sample sort
+61 0.1139::0.002366
+
+delete, nn = 2097152
+running sample sort
+deleting 60
+62
+
+insert, nn = 2097152
+running sample sort
+62 0.1252::0.002138
+
+delete, nn = 2097152
+running sample sort
+deleting 61
+63
+
+insert, nn = 2097152
+running sample sort
+63 0.1179::0.002763
+
+delete, nn = 2097152
+running sample sort
+deleting 62
+64
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+64 0.1224::0.003549
+
+deleting 63
+65
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+65 0.1162::0.002422
+
+deleting 64
+66
+
+insert, nn = 2097152
+running sample sort
+66 0.1228::0.003048
+
+delete, nn = 2097152
+running sample sort
+deleting 65
+67
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+67 0.1285::0.002334
+
+deleting 66
+68
+
+insert, nn = 2097152
+running sample sort
+68 0.107::0.002608
+
+delete, nn = 2097152
+running sample sort
+deleting 67
+69
+
+insert, nn = 2097152
+running sample sort
+69 0.1226::0.002561
+
+delete, nn = 2097152
+running sample sort
+deleting 68
+70
+
+insert, nn = 2097152
+running sample sort
+70 0.126::0.002576
+
+delete, nn = 2097152
+running sample sort
+deleting 69
+71
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+71 0.1246::0.00246
+
+deleting 70
+72
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+72 0.1212::0.005514
+
+deleting 71
+73
+
+insert, nn = 2097152
+running sample sort
+73 0.1017::0.002483
+
+delete, nn = 2097152
+running sample sort
+deleting 72
+74
+
+insert, nn = 2097152
+running sample sort
+74 0.1249::0.00261
+
+delete, nn = 2097152
+running sample sort
+deleting 73
+75
+
+insert, nn = 2097152
+running sample sort
+75 0.1203::0.002759
+
+delete, nn = 2097152
+running sample sort
+deleting 74
+76
+
+insert, nn = 2097152
+running sample sort
+76 0.1202::0.002452
+
+delete, nn = 2097152
+running sample sort
+deleting 75
+77
+
+insert, nn = 2097152
+running sample sort
+77 0.118::0.002677
+
+delete, nn = 2097152
+running sample sort
+deleting 76
+78
+
+insert, nn = 2097152
+running sample sort
+78 0.1149::0.002581
+
+delete, nn = 2097152
+running sample sort
+deleting 77
+79
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+79 0.1346::0.006453
+
+deleting 78
+80
+
+insert, nn = 2097152
+running sample sort
+80 0.09594::0.002406
+
+delete, nn = 2097152
+running sample sort
+deleting 79
+81
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+81 0.1224::0.002296
+
+deleting 80
+82
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+82 0.1214::0.002576
+
+deleting 81
+83
+
+insert, nn = 2097152
+running sample sort
+83 0.1187::0.002816
+
+delete, nn = 2097152
+running sample sort
+deleting 82
+84
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+84 0.1203::0.002563
+
+deleting 83
+85
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+85 0.1155::0.002412
+
+deleting 84
+86
+
+insert, nn = 2097152
+running sample sort
+86 0.1191::0.002482
+
+delete, nn = 2097152
+running sample sort
+deleting 85
+87
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+87 0.1265::0.002622
+
+deleting 86
+88
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+88 0.1183::0.002433
+
+deleting 87
+89
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+89 0.1189::0.002578
+
+deleting 88
+90
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+90 0.117::0.002475
+
+deleting 89
+91
+
+insert, nn = 2097152
+running sample sort
+91 0.1126::0.00256
+
+delete, nn = 2097152
+running sample sort
+deleting 90
+92
+
+insert, nn = 2097152
+running sample sort
+92 0.1166::0.003284
+
+delete, nn = 2097152
+running sample sort
+deleting 91
+93
+
+insert, nn = 2097152
+running sample sort
+93 0.1196::0.002477
+
+delete, nn = 2097152
+running sample sort
+deleting 92
+94
+
+insert, nn = 2097152
+running sample sort
+94 0.1173::0.00244
+
+delete, nn = 2097152
+running sample sort
+deleting 93
+95
+
+insert, nn = 2097152
+running sample sort
+95 0.1226::0.002891
+
+delete, nn = 2097152
+running sample sort
+deleting 94
+96
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+96 0.1249::0.002599
+
+deleting 95
+97
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+97 0.1255::0.003851
+
+deleting 96
+98
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+98 0.0966::0.002825
+
+deleting 97
+99
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+99 0.1207::0.002495
+
+deleting 98
+100
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+100 0.1242::0.002434
+
+deleting 99
+101
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+101 0.1258::0.002428
+
+deleting 100
+102
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+102 0.112::0.002534
+
+deleting 101
+103
+
+insert, nn = 2097152
+running sample sort
+103 0.1156::0.002428
+
+delete, nn = 2097152
+running sample sort
+deleting 102
+104
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+104 0.1295::0.002572
+
+deleting 103
+105
+
+insert, nn = 2097152
+running sample sort
+105 0.1175::0.002871
+
+delete, nn = 2097152
+running sample sort
+deleting 104
+106
+
+insert, nn = 2097152
+running sample sort
+106 0.1183::0.00251
+
+delete, nn = 2097152
+running sample sort
+deleting 105
+107
+
+insert, nn = 2097152
+running sample sort
+107 0.1159::0.00309
+
+delete, nn = 2097152
+running sample sort
+deleting 106
+108
+
+insert, nn = 2097152
+running sample sort
+108 0.1189::0.002638
+
+delete, nn = 2097152
+running sample sort
+deleting 107
+109
+
+insert, nn = 2097152
+running sample sort
+109 0.1215::0.003025
+
+delete, nn = 2097152
+running sample sort
+deleting 108
+110
+
+insert, nn = 2097152
+running sample sort
+110 0.1237::0.00262
+
+delete, nn = 2097152
+running sample sort
+deleting 109
+111
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+111 0.1188::0.002439
+
+deleting 110
+112
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+112 0.1233::0.002689
+
+deleting 111
+113
+
+insert, nn = 2097152
+running sample sort
+113 0.1123::0.002694
+
+delete, nn = 2097152
+running sample sort
+deleting 112
+114
+
+insert, nn = 2097152
+running sample sort
+114 0.127::0.002767
+
+delete, nn = 2097152
+running sample sort
+deleting 113
+115
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+115 0.1183::0.002761
+
+deleting 114
+116
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+116 0.1198::0.002687
+
+deleting 115
+117
+
+insert, nn = 2097152
+running sample sort
+117 0.1175::0.002414
+
+delete, nn = 2097152
+running sample sort
+deleting 116
+118
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+118 0.1249::0.002764
+
+deleting 117
+119
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+119 0.1181::0.002755
+
+deleting 118
+120
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+120 0.1185::0.004563
+
+deleting 119
+121
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+121 0.1092::0.002984
+
+deleting 120
+122
+
+insert, nn = 2097152
+running sample sort
+122 0.1189::0.002784
+
+delete, nn = 2097152
+running sample sort
+deleting 121
+123
+
+insert, nn = 2097152
+running sample sort
+123 0.1186::0.002899
+
+delete, nn = 2097152
+running sample sort
+deleting 122
+124
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+124 0.1167::0.002859
+
+deleting 123
+125
+
+insert, nn = 2097152
+running sample sort
+125 0.1124::0.00285
+
+delete, nn = 2097152
+running sample sort
+deleting 124
+126
+
+insert, nn = 2097152
+running sample sort
+126 0.114::0.003706
+
+delete, nn = 2097152
+running sample sort
+deleting 125
+127
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+127 0.1213::0.002575
+
+deleting 126
+128
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+128 0.1175::0.002714
+
+deleting 127
+129
+
+insert, nn = 2097152
+running sample sort
+129 0.1189::0.002954
+
+delete, nn = 2097152
+running sample sort
+deleting 128
+130
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+130 0.1278::0.002703
+
+deleting 129
+131
+
+insert, nn = 2097152
+running sample sort
+131 0.1213::0.002741
+
+delete, nn = 2097152
+running sample sort
+deleting 130
+132
+
+insert, nn = 2097152
+running sample sort
+132 0.125::0.00282
+
+delete, nn = 2097152
+running sample sort
+deleting 131
+133
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+133 0.1133::0.002842
+
+deleting 132
+134
+
+insert, nn = 2097152
+running sample sort
+134 0.1151::0.0029
+
+delete, nn = 2097152
+running sample sort
+deleting 133
+135
+
+insert, nn = 2097152
+running sample sort
+135 0.116::0.00269
+
+delete, nn = 2097152
+running sample sort
+deleting 134
+136
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+136 0.1205::0.002865
+
+deleting 135
+137
+
+insert, nn = 2097152
+running sample sort
+137 0.1171::0.002666
+
+delete, nn = 2097152
+running sample sort
+deleting 136
+138
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+138 0.1198::0.002756
+
+deleting 137
+139
+
+insert, nn = 2097152
+running sample sort
+139 0.1174::0.002923
+
+delete, nn = 2097152
+running sample sort
+deleting 138
+140
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+140 0.1218::0.002819
+
+deleting 139
+141
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+141 0.112::0.00285
+
+deleting 140
+142
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+142 0.1148::0.00272
+
+deleting 141
+143
+
+insert, nn = 2097152
+running sample sort
+143 0.1151::0.002812
+
+delete, nn = 2097152
+running sample sort
+deleting 142
+144
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+144 0.1312::0.01344
+
+deleting 143
+145
+
+insert, nn = 2097152
+running sample sort
+145 0.08363::0.002743
+
+delete, nn = 2097152
+running sample sort
+deleting 144
+146
+
+insert, nn = 2097152
+running sample sort
+146 0.1164::0.002898
+
+delete, nn = 2097152
+running sample sort
+deleting 145
+147
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+147 0.1192::0.002831
+
+deleting 146
+148
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+148 0.1226::0.002776
+
+deleting 147
+149
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+149 0.1334::0.004112
+
+deleting 148
+150
+
+insert, nn = 2097152
+running sample sort
+150 0.09592::0.003022
+
+delete, nn = 2097152
+running sample sort
+deleting 149
+151
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+151 0.1194::0.002689
+
+deleting 150
+152
+
+insert, nn = 2097152
+running sample sort
+152 0.1228::0.002926
+
+delete, nn = 2097152
+running sample sort
+deleting 151
+153
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+153 0.1193::0.002717
+
+deleting 152
+154
+
+insert, nn = 2097152
+running sample sort
+154 0.119::0.002796
+
+delete, nn = 2097152
+running sample sort
+deleting 153
+155
+
+insert, nn = 2097152
+running sample sort
+155 0.1213::0.002755
+
+delete, nn = 2097152
+running sample sort
+deleting 154
+156
+
+insert, nn = 2097152
+running sample sort
+156 0.1183::0.002769
+
+delete, nn = 2097152
+running sample sort
+deleting 155
+157
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+157 0.1183::0.002866
+
+deleting 156
+158
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+158 0.1133::0.002843
+
+deleting 157
+159
+
+insert, nn = 2097152
+running sample sort
+159 0.1196::0.003087
+
+delete, nn = 2097152
+running sample sort
+deleting 158
+160
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+160 0.1251::0.002722
+
+deleting 159
+161
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+161 0.1086::0.006006
+
+deleting 160
+162
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+162 0.1175::0.00292
+
+deleting 161
+163
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+163 0.1236::0.002744
+
+deleting 162
+164
+
+insert, nn = 2097152
+running sample sort
+164 0.122::0.002834
+
+delete, nn = 2097152
+running sample sort
+deleting 163
+165
+
+insert, nn = 2097152
+running sample sort
+165 0.1196::0.002934
+
+delete, nn = 2097152
+running sample sort
+deleting 164
+166
+
+insert, nn = 2097152
+running sample sort
+166 0.1192::0.003413
+
+delete, nn = 2097152
+running sample sort
+deleting 165
+167
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+167 0.1191::0.002802
+
+deleting 166
+168
+
+insert, nn = 2097152
+running sample sort
+168 0.1205::0.002747
+
+delete, nn = 2097152
+running sample sort
+deleting 167
+169
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+169 0.1193::0.002909
+
+deleting 168
+170
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+170 0.1171::0.002766
+
+deleting 169
+171
+
+insert, nn = 2097152
+running sample sort
+171 0.1252::0.002765
+
+delete, nn = 2097152
+running sample sort
+deleting 170
+172
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+172 0.12::0.003357
+
+deleting 171
+173
+
+insert, nn = 2097152
+running sample sort
+173 0.1111::0.002812
+
+delete, nn = 2097152
+running sample sort
+deleting 172
+174
+
+insert, nn = 2097152
+running sample sort
+174 0.1176::0.002823
+
+delete, nn = 2097152
+running sample sort
+deleting 173
+175
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+175 0.1314::0.002975
+
+deleting 174
+176
+
+insert, nn = 2097152
+running sample sort
+176 0.1171::0.003396
+
+delete, nn = 2097152
+running sample sort
+deleting 175
+177
+
+insert, nn = 2097152
+running sample sort
+177 0.1264::0.003723
+
+delete, nn = 2097152
+running sample sort
+deleting 176
+178
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+178 0.1204::0.002731
+
+deleting 177
+179
+
+insert, nn = 2097152
+running sample sort
+179 0.1192::0.003361
+
+delete, nn = 2097152
+running sample sort
+deleting 178
+180
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+180 0.1171::0.002901
+
+deleting 179
+181
+
+insert, nn = 2097152
+running sample sort
+181 0.1166::0.003113
+
+delete, nn = 2097152
+running sample sort
+deleting 180
+182
+
+insert, nn = 2097152
+running sample sort
+182 0.1209::0.002751
+
+delete, nn = 2097152
+running sample sort
+deleting 181
+183
+
+insert, nn = 2097152
+running sample sort
+183 0.1211::0.00322
+
+delete, nn = 2097152
+running sample sort
+deleting 182
+184
+
+insert, nn = 2097152
+running sample sort
+184 0.1208::0.003267
+
+delete, nn = 2097152
+running sample sort
+deleting 183
+185
+
+insert, nn = 2097152
+running sample sort
+185 0.1191::0.002845
+
+delete, nn = 2097152
+running sample sort
+deleting 184
+186
+
+insert, nn = 2097152
+running sample sort
+186 0.1202::0.003096
+
+delete, nn = 2097152
+running sample sort
+deleting 185
+187
+
+insert, nn = 2097152
+running sample sort
+187 0.1126::0.00296
+
+delete, nn = 2097152
+running sample sort
+deleting 186
+188
+
+insert, nn = 2097152
+running sample sort
+188 0.1278::0.002831
+
+delete, nn = 2097152
+running sample sort
+deleting 187
+189
+
+insert, nn = 2097152
+running sample sort
+189 0.1213::0.002904
+
+delete, nn = 2097152
+running sample sort
+deleting 188
+190
+
+insert, nn = 2097152
+running sample sort
+190 0.1177::0.002922
+
+delete, nn = 2097152
+running sample sort
+deleting 189
+191
+
+insert, nn = 2097152
+running sample sort
+191 0.1182::0.003092
+
+delete, nn = 2097152
+running sample sort
+deleting 190
+192
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+192 0.1302::0.002889
+
+deleting 191
+193
+
+insert, nn = 2097152
+running sample sort
+193 0.1164::0.002699
+
+delete, nn = 2097152
+running sample sort
+deleting 192
+194
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+194 0.1225::0.003178
+
+deleting 193
+195
+
+insert, nn = 2097152
+running sample sort
+195 0.1129::0.003101
+
+delete, nn = 2097152
+running sample sort
+deleting 194
+196
+
+insert, nn = 2097152
+running sample sort
+196 0.1193::0.002797
+
+delete, nn = 2097152
+running sample sort
+deleting 195
+197
+
+insert, nn = 2097152
+running sample sort
+197 0.1133::0.003013
+
+delete, nn = 2097152
+running sample sort
+deleting 196
+198
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+198 0.1264::0.002913
+
+deleting 197
+199
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+199 0.129::0.002807
+
+deleting 198
+200
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 199
+200 0.1212::0.06865
+
+201
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 200
+201 0.0514::0.05032
+
+202
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 201
+202 0.06961::0.04777
+
+203
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 202
+203 0.07367::0.04552
+
+204
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 203
+204 0.07428::0.04693
+
+205
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 204
+205 0.06281::0.04849
+
+206
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 205
+206 0.07791::0.04792
+
+207
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 206
+207 0.07397::0.04848
+
+208
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 207
+208 0.0599::0.04636
+
+209
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 208
+209 0.06895::0.04784
+
+210
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 209
+210 0.07288::0.04742
+
+211
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 210
+211 0.07493::0.0487
+
+212
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 211
+212 0.07641::0.05723
+
+213
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 212
+213 0.05038::0.0482
+
+214
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 213
+214 0.07164::0.04803
+
+215
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 214
+215 0.07553::0.04917
+
+216
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 215
+216 0.06162::0.04903
+
+217
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 216
+217 0.08494::0.04839
+
+218
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 217
+218 0.06678::0.04992
+
+219
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 218
+219 0.06967::0.04864
+
+220
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 219
+220 0.06741::0.05076
+
+221
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+221 0.07427::0.04586
+
+deleting 220
+222
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 221
+222 0.08868::0.05089
+
+223
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 222
+223 0.06622::0.04973
+
+224
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 223
+224 0.06494::0.04986
+
+225
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 224
+225 0.07568::0.05111
+
+226
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 225
+226 0.06257::0.04961
+
+227
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 226
+227 0.07702::0.05059
+
+228
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 227
+228 0.08103::0.06555
+
+229
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 228
+229 0.04245::0.06693
+
+230
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 229
+230 0.05304::0.05095
+
+231
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 230
+231 0.0688::0.05361
+
+232
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 231
+232 0.05223::0.0516
+
+233
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 232
+233 0.06879::0.04908
+
+234
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 233
+234 0.07284::0.0528
+
+235
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 234
+235 0.07057::0.05349
+
+236
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 235
+236 0.03493::0.04994
+
+237
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 236
+237 0.06865::0.05213
+
+238
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 237
+238 0.0671::0.05088
+
+239
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 238
+239 0.06888::0.05305
+
+240
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 239
+240 0.0613::0.05105
+
+241
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 240
+241 0.06977::0.05228
+
+242
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 241
+242 0.06037::0.05248
+
+243
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 242
+243 0.06517::0.05246
+
+244
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 243
+244 0.05849::0.05347
+
+245
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 244
+245 0.06072::0.06514
+
+246
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 245
+246 0.05155::0.05283
+
+247
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 246
+247 0.06525::0.0528
+
+248
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 247
+248 0.0692::0.05307
+
+249
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 248
+249 0.06962::0.05361
+
+250
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 249
+250 0.06598::0.05585
+
+251
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 250
+251 0.06083::0.05655
+
+252
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 251
+252 0.059::0.05312
+
+253
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 252
+253 0.06244::0.05555
+
+254
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 253
+254 0.07353::0.05422
+
+255
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 254
+255 0.06923::0.05494
+
+256
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 255
+256 0.05839::0.05388
+
+257
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 256
+257 0.07423::0.05369
+
+258
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 257
+258 0.06279::0.05553
+
+259
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 258
+259 0.06917::0.05329
+
+260
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 259
+260 0.07172::0.0544
+
+261
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 260
+261 0.07815::0.05739
+
+262
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 261
+262 0.05929::0.05654
+
+263
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 262
+263 0.05647::0.05329
+
+264
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 263
+264 0.0684::0.05614
+
+265
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 264
+266
+
+insert, nn = 2097152
+running sample sort
+265 0.08775::0.06513
+
+delete, nn = 2097152
+running sample sort
+deleting 265
+267
+
+insert, nn = 2097152
+running sample sort
+266 0.03432::0.0625
+
+delete, nn = 2097152
+running sample sort
+deleting 266
+267 0.03821::0.06201
+
+268
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 267
+268 0.04268::0.05645
+
+269
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 268
+269 0.05628::0.05327
+
+270
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 269
+270 0.06099::0.05273
+
+271
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 270
+271 0.06956::0.05799
+
+272
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 271
+273
+
+insert, nn = 2097152
+running sample sort
+272 0.07963::0.07079
+
+delete, nn = 2097152
+running sample sort
+deleting 272
+273 0.03179::0.05584
+
+274
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 273
+274 0.06556::0.05734
+
+275
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 274
+275 0.05886::0.05616
+
+276
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 275
+276 0.05935::0.05554
+
+277
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 276
+277 0.05959::0.05474
+
+278
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 277
+278 0.06232::0.05679
+
+279
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 278
+279 0.05913::0.06431
+
+280
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 279
+280 0.05027::0.05706
+
+281
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 280
+281 0.06959::0.05802
+
+282
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 281
+282 0.06866::0.05867
+
+283
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 282
+283 0.05712::0.06296
+
+284
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 283
+284 0.05226::0.05856
+
+285
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 284
+285 0.05568::0.05818
+
+286
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 285
+287
+
+insert, nn = 2097152
+running sample sort
+286 0.07644::0.07334
+
+delete, nn = 2097152
+running sample sort
+deleting 286
+288
+
+insert, nn = 2097152
+running sample sort
+287 0.05267::0.06227
+
+delete, nn = 2097152
+running sample sort
+deleting 287
+289
+
+insert, nn = 2097152
+running sample sort
+288 0.0436::0.06737
+
+delete, nn = 2097152
+running sample sort
+deleting 288
+290
+
+insert, nn = 2097152
+running sample sort
+289 0.05265::0.06967
+
+delete, nn = 2097152
+running sample sort
+deleting 289
+291
+
+insert, nn = 2097152
+running sample sort
+290 0.05019::0.06711
+
+delete, nn = 2097152
+running sample sort
+deleting 290
+291 0.03138::0.06189
+
+292
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 291
+292 0.03817::0.0591
+
+293
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 292
+293 0.06016::0.05757
+
+294
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 293
+294 0.06941::0.06176
+
+295
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 294
+295 0.04656::0.08444
+
+296
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 295
+297
+
+insert, nn = 2097152
+running sample sort
+296 0.04125::0.07256
+
+delete, nn = 2097152
+running sample sort
+deleting 296
+297 0.0347::0.06258
+
+298
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 297
+298 0.05685::0.06005
+
+299
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 298
+299 0.0473::0.06317
+
+300
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 299
+300 0.04874::0.06
+
+301
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 300
+301 0.05496::0.05856
+
+302
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 301
+302 0.06894::0.05956
+
+303
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 302
+303 0.05602::0.06119
+
+304
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 303
+304 0.05011::0.06609
+
+305
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 304
+305 0.03533::0.06174
+
+306
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 305
+306 0.05679::0.06217
+
+307
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 306
+307 0.06442::0.06022
+
+308
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 307
+308 0.0598::0.05989
+
+309
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 308
+309 0.05845::0.06601
+
+310
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 309
+310 0.0503::0.06292
+
+311
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 310
+311 0.05319::0.06122
+
+312
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 311
+312 0.05069::0.0621
+
+313
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 312
+313 0.05775::0.0625
+
+314
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 313
+315
+
+insert, nn = 2097152
+running sample sort
+314 0.05353::0.07126
+
+delete, nn = 2097152
+running sample sort
+deleting 314
+316
+
+insert, nn = 2097152
+running sample sort
+315 0.0487::0.06981
+
+delete, nn = 2097152
+running sample sort
+deleting 315
+317
+
+insert, nn = 2097152
+running sample sort
+316 0.04367::0.06715
+
+delete, nn = 2097152
+running sample sort
+deleting 316
+318
+
+insert, nn = 2097152
+running sample sort
+317 0.04415::0.07184
+
+delete, nn = 2097152
+running sample sort
+deleting 317
+318 0.03513::0.06624
+
+319
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 318
+319 0.04326::0.06313
+
+320
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 319
+320 0.04689::0.06108
+
+321
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 320
+321 0.059::0.06284
+
+322
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 321
+322 0.04688::0.06856
+
+323
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 322
+323 0.06212::0.06464
+
+324
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 323
+324 0.04327::0.067
+
+325
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 324
+325 0.05729::0.06278
+
+326
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 325
+326 0.05692::0.06135
+
+327
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 326
+327 0.0629::0.06863
+
+328
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 327
+328 0.051::0.06199
+
+329
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 328
+330
+
+insert, nn = 2097152
+running sample sort
+329 0.05463::0.09327
+
+delete, nn = 2097152
+running sample sort
+deleting 329
+331
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+330 0.04995::0.07392
+
+deleting 330
+332
+
+insert, nn = 2097152
+running sample sort
+331 0.03455::0.064
+
+delete, nn = 2097152
+running sample sort
+deleting 331
+333
+
+insert, nn = 2097152
+running sample sort
+332 0.03576::0.07391
+
+delete, nn = 2097152
+running sample sort
+deleting 332
+334
+
+insert, nn = 2097152
+running sample sort
+333 0.03387::0.0701
+
+delete, nn = 2097152
+running sample sort
+deleting 333
+335
+
+insert, nn = 2097152
+running sample sort
+334 0.03774::0.08501
+
+delete, nn = 2097152
+running sample sort
+deleting 334
+336
+
+insert, nn = 2097152
+running sample sort
+335 0.05101::0.06534
+
+delete, nn = 2097152
+running sample sort
+deleting 335
+337
+
+insert, nn = 2097152
+running sample sort
+336 0.03865::0.06801
+
+delete, nn = 2097152
+running sample sort
+deleting 336
+338
+
+insert, nn = 2097152
+running sample sort
+337 0.04808::0.07281
+
+delete, nn = 2097152
+running sample sort
+deleting 337
+339
+
+insert, nn = 2097152
+running sample sort
+338 0.03096::0.07503
+
+delete, nn = 2097152
+running sample sort
+deleting 338
+340
+
+insert, nn = 2097152
+running sample sort
+339 0.03387::0.06427
+
+delete, nn = 2097152
+running sample sort
+deleting 339
+340 0.03486::0.06619
+
+341
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 340
+341 0.05187::0.06471
+
+342
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 341
+342 0.05609::0.06549
+
+343
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 342
+343 0.07157::0.06654
+
+344
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 343
+344 0.05141::0.06793
+
+345
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 344
+346
+
+insert, nn = 2097152
+running sample sort
+345 0.05534::0.08968
+
+delete, nn = 2097152
+running sample sort
+deleting 345
+346 0.0416::0.06862
+
+347
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 346
+347 0.04208::0.06655
+
+348
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 347
+348 0.04996::0.06993
+
+349
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 348
+349 0.03443::0.07324
+
+350
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 349
+350 0.03996::0.06408
+
+351
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 350
+351 0.05426::0.06579
+
+352
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 351
+352 0.04934::0.06877
+
+353
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 352
+353 0.05234::0.06645
+
+354
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 353
+354 0.04982::0.06517
+
+355
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 354
+355 0.05821::0.06878
+
+356
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 355
+356 0.0472::0.06723
+
+357
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 356
+357 0.05052::0.06703
+
+358
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 357
+358 0.05471::0.07036
+
+359
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 358
+359 0.04987::0.06665
+
+360
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 359
+360 0.04948::0.06814
+
+361
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 360
+361 0.04186::0.07139
+
+362
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 361
+362 0.03851::0.06525
+
+363
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 362
+363 0.05999::0.06754
+
+364
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 363
+364 0.04716::0.07387
+
+365
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 364
+365 0.04084::0.06617
+
+366
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 365
+366 0.04968::0.07009
+
+367
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 366
+367 0.0387::0.06808
+
+368
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 367
+369
+
+insert, nn = 2097152
+running sample sort
+368 0.06035::0.07929
+
+delete, nn = 2097152
+running sample sort
+deleting 368
+370
+
+insert, nn = 2097152
+running sample sort
+369 0.04866::0.06978
+
+delete, nn = 2097152
+running sample sort
+deleting 369
+371
+
+insert, nn = 2097152
+running sample sort
+370 0.03049::0.07682
+
+delete, nn = 2097152
+running sample sort
+deleting 370
+372
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+371 0.04694::0.08702
+
+deleting 371
+373
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+372 0.03343::0.06969
+
+deleting 372
+374
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+373 0.05425::0.07467
+
+deleting 373
+375
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+376
+
+insert, nn = 2097152
+running sample sort
+374 0.03135::0.07948
+
+delete, nn = 2097152
+running sample sort
+deleting 374
+375 0.03212::0.06974
+
+deleting 375
+377
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+378
+
+insert, nn = 2097152
+running sample sort
+376 0.04402::0.06941
+
+delete, nn = 2097152
+running sample sort
+deleting 376
+377 0.03674::0.07347
+
+deleting 377
+379
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+378 0.03899::0.07416
+
+deleting 378
+380
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+379 0.04905::0.07437
+
+deleting 379
+381
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+382
+
+insert, nn = 2097152
+running sample sort
+380 0.03578::0.07295
+
+delete, nn = 2097152
+running sample sort
+deleting 380
+381 0.0334::0.07222
+
+deleting 381
+383
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+384
+
+insert, nn = 2097152
+running sample sort
+382 0.04133::0.07731
+
+delete, nn = 2097152
+running sample sort
+deleting 382
+385
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+383 0.04269::0.07771
+
+deleting 383
+386
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+384 0.03941::0.07523
+
+deleting 384
+387
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+385 0.04266::0.07384
+
+deleting 385
+388
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+389
+
+insert, nn = 2097152
+running sample sort
+386 0.04374::0.07176
+
+delete, nn = 2097152
+running sample sort
+deleting 386
+390
+
+insert, nn = 2097152
+running sample sort
+387 0.05164::0.0748
+
+delete, nn = 2097152
+running sample sort
+deleting 387
+391
+
+insert, nn = 2097152
+running sample sort
+388 0.03183::0.07206
+
+delete, nn = 2097152
+running sample sort
+deleting 388
+392
+
+insert, nn = 2097152
+running sample sort
+389 0.04847::0.07464
+
+delete, nn = 2097152
+running sample sort
+deleting 389
+393
+
+insert, nn = 2097152
+running sample sort
+390 0.03251::0.07133
+
+delete, nn = 2097152
+running sample sort
+deleting 390
+391 0.03403::0.0716
+
+deleting 391
+394
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+392 0.04749::0.07378
+
+deleting 392
+395
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+393 0.03376::0.0734
+
+deleting 393
+396
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+394 0.03978::0.07449
+
+deleting 394
+397
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+395 0.03305::0.07408
+
+deleting 395
+398
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+396 0.03713::0.07467
+
+deleting 396
+399
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+400
+
+insert, nn = 2097152
+running sample sort
+397 0.05025::0.07411
+
+delete, nn = 2097152
+running sample sort
+deleting 397
+401
+
+insert, nn = 2097152
+running sample sort
+398 0.03712::0.08574
+
+delete, nn = 2097152
+running sample sort
+deleting 398
+402
+
+insert, nn = 2097152
+running sample sort
+399 0.03127::0.072
+
+delete, nn = 2097152
+running sample sort
+deleting 399
+403
+
+insert, nn = 2097152
+running sample sort
+400 0.05198::0.0805
+
+delete, nn = 2097152
+running sample sort
+deleting 400
+404
+
+insert, nn = 2097152
+running sample sort
+401 0.03606::0.07844
+
+delete, nn = 2097152
+running sample sort
+deleting 401
+405
+
+insert, nn = 2097152
+running sample sort
+402 0.03477::0.0745
+
+delete, nn = 2097152
+running sample sort
+deleting 402
+403 0.03418::0.07264
+
+deleting 403
+406
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+404 0.03219::0.07443
+
+deleting 404
+407
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+405 0.03808::0.0763
+
+deleting 405
+408
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+409
+
+406 0.04761::0.07305
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 406
+407 0.03208::0.07477
+
+deleting 407
+410
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+408 0.04017::0.07336
+
+deleting 408
+411
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+412
+
+insert, nn = 2097152
+running sample sort
+409 0.03452::0.07309
+
+delete, nn = 2097152
+running sample sort
+deleting 409
+410 0.03488::0.07362
+
+deleting 410
+413
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+414
+
+insert, nn = 2097152
+running sample sort
+411 0.03345::0.07424
+
+delete, nn = 2097152
+running sample sort
+deleting 411
+415
+
+insert, nn = 2097152
+running sample sort
+412 0.03731::0.09044
+
+delete, nn = 2097152
+running sample sort
+deleting 412
+416
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+413 0.05475::0.08012
+
+deleting 413
+417
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+414 0.0445::0.07723
+
+deleting 414
+418
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+415 0.03417::0.07931
+
+deleting 415
+419
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+420
+
+insert, nn = 2097152
+running sample sort
+416 0.03105::0.07832
+
+delete, nn = 2097152
+running sample sort
+deleting 416
+421
+
+insert, nn = 2097152
+running sample sort
+417 0.03129::0.0761
+
+delete, nn = 2097152
+running sample sort
+deleting 417
+422
+
+insert, nn = 2097152
+running sample sort
+418 0.03515::0.09203
+
+delete, nn = 2097152
+running sample sort
+deleting 418
+423
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+419 0.0486::0.08735
+
+deleting 419
+424
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+420 0.04071::0.07781
+
+deleting 420
+425
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+421 0.03572::0.07378
+
+deleting 421
+426
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+422 0.03659::0.08077
+
+deleting 422
+427
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+423 0.04712::0.08362
+
+deleting 423
+428
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+424 0.04435::0.07872
+
+deleting 424
+429
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+430
+
+insert, nn = 2097152
+running sample sort
+425 0.02987::0.076
+
+delete, nn = 2097152
+running sample sort
+deleting 425
+431
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+426 0.04742::0.08281
+
+deleting 426
+432
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+427 0.03969::0.0788
+
+deleting 427
+433
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+428 0.03837::0.08112
+
+deleting 428
+434
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+435
+
+insert, nn = 2097152
+running sample sort
+429 0.03507::0.07748
+
+delete, nn = 2097152
+running sample sort
+deleting 429
+436
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+430 0.04768::0.08337
+
+deleting 430
+437
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+431 0.03858::0.07421
+
+deleting 431
+438
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+439
+
+insert, nn = 2097152
+running sample sort
+432 0.04794::0.09714
+
+delete, nn = 2097152
+running sample sort
+deleting 432
+440
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+433 0.03737::0.08993
+
+deleting 433
+441
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+434 0.04205::0.07745
+
+deleting 434
+442
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+435 0.0346::0.07852
+
+deleting 435
+443
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+436 0.0494::0.08891
+
+deleting 436
+444
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+437 0.03385::0.07372
+
+deleting 437
+445
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+438 0.04306::0.07732
+
+deleting 438
+446
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+447
+
+insert, nn = 2097152
+running sample sort
+439 0.03902::0.08014
+
+delete, nn = 2097152
+running sample sort
+deleting 439
+448
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+440 0.04381::0.08591
+
+deleting 440
+449
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+441 0.04287::0.07744
+
+deleting 441
+450
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+442 0.06015::0.08104
+
+deleting 442
+451
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+452
+
+insert, nn = 2097152
+running sample sort
+443 0.04826::0.0877
+
+delete, nn = 2097152
+running sample sort
+deleting 443
+453
+
+insert, nn = 2097152
+running sample sort
+444 0.03166::0.08131
+
+delete, nn = 2097152
+running sample sort
+deleting 444
+454
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+445 0.05147::0.08651
+
+deleting 445
+455
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+446 0.04521::0.0932
+
+deleting 446
+456
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+457
+
+insert, nn = 2097152
+running sample sort
+447 0.055::0.07914
+
+delete, nn = 2097152
+running sample sort
+deleting 447
+448 0.03195::0.07918
+
+deleting 448
+458
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+459
+
+insert, nn = 2097152
+running sample sort
+449 0.04418::0.08521
+
+delete, nn = 2097152
+running sample sort
+deleting 449
+460
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+450 0.04826::0.08937
+
+deleting 450
+461
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+451 0.04262::0.08905
+
+deleting 451
+462
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+463
+
+insert, nn = 2097152
+running sample sort
+452 0.03993::0.08646
+
+delete, nn = 2097152
+running sample sort
+deleting 452
+453 0.03405::0.07892
+
+deleting 453
+464
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+465
+
+insert, nn = 2097152
+running sample sort
+454 0.04356::0.08028
+
+delete, nn = 2097152
+running sample sort
+deleting 454
+466
+
+insert, nn = 2097152
+running sample sort
+455 0.03332::0.07765
+
+delete, nn = 2097152
+running sample sort
+deleting 455
+456 0.03142::0.07821
+
+deleting 456
+467
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+468
+
+insert, nn = 2097152
+running sample sort
+457 0.04293::0.0821
+
+delete, nn = 2097152
+running sample sort
+deleting 457
+469
+
+insert, nn = 2097152
+running sample sort
+458 0.03252::0.08359
+
+delete, nn = 2097152
+running sample sort
+deleting 458
+470
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+459 0.04261::0.08563
+
+deleting 459
+471
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+472
+
+insert, nn = 2097152
+running sample sort
+460 0.04146::0.08932
+
+delete, nn = 2097152
+running sample sort
+deleting 460
+461 0.03688::0.07938
+
+deleting 461
+473
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+474
+
+insert, nn = 2097152
+running sample sort
+462 0.04237::0.08414
+
+delete, nn = 2097152
+running sample sort
+deleting 462
+463 0.03505::0.07974
+
+deleting 463
+475
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+476
+
+insert, nn = 2097152
+running sample sort
+464 0.0297::0.08496
+
+delete, nn = 2097152
+running sample sort
+deleting 464
+477
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+465 0.0284::0.1036
+
+deleting 465
+478
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+466 0.04787::0.08871
+
+deleting 466
+479
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+480
+
+insert, nn = 2097152
+running sample sort
+467 0.04172::0.08324
+
+delete, nn = 2097152
+running sample sort
+deleting 467
+481
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+468 0.04469::0.08887
+
+deleting 468
+482
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+469 0.03207::0.07963
+
+deleting 469
+483
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+470 0.03933::0.08648
+
+deleting 470
+484
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+485
+
+insert, nn = 2097152
+running sample sort
+471 0.04444::0.08209
+
+delete, nn = 2097152
+running sample sort
+deleting 471
+486
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+472 0.05067::0.1015
+
+deleting 472
+487
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+473 0.03503::0.09038
+
+deleting 473
+488
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+489
+
+insert, nn = 2097152
+running sample sort
+474 0.0422::0.08009
+
+delete, nn = 2097152
+running sample sort
+deleting 474
+490
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+475 0.04292::0.09652
+
+deleting 475
+491
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+476 0.04557::0.09398
+
+deleting 476
+492
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+477 0.04337::0.0824
+
+deleting 477
+493
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+494
+
+478 0.04864::0.08203
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 478
+479 0.03185::0.08203
+
+deleting 479
+495
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+496
+
+480 0.04544::0.08058
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 480
+481 0.03108::0.08188
+
+deleting 481
+497
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+498
+
+482 0.04425::0.08024
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 482
+499
+
+483 0.04188::0.08142
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 483
+484 0.03474::0.08363
+
+deleting 484
+500
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+501
+
+485 0.04013::0.08559
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 485
+502
+
+486 0.035::0.08343
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 486
+503
+
+487 0.04183::0.08296
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 487
+504
+
+488 0.03519::0.0825
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 488
+505
+
+489 0.03961::0.08352
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 489
+490 0.04057::0.07986
+
+deleting 490
+506
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+507
+
+491 0.04161::0.08418
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 491
+508
+
+492 0.03435::0.08384
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 492
+509
+
+493 0.03659::0.08596
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 493
+494 0.03917::0.0823
+
+deleting 494
+510
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+511
+
+495 0.03371::0.08413
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 495
+496 0.0415::0.0805
+
+deleting 496
+512
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+513
+
+497 0.04004::0.08764
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 497
+514
+
+498 0.0382::0.08463
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 498
+499 0.03152::0.08456
+
+deleting 499
+515
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+516
+
+500 0.05509::0.08354
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 500
+517
+
+501 0.03517::0.08346
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 501
+518
+
+502 0.03779::0.08361
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 502
+519
+
+503 0.03235::0.08339
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 503
+504 0.03446::0.08363
+
+deleting 504
+520
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+521
+
+505 0.03497::0.08292
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 505
+522
+
+506 0.03589::0.0853
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 506
+523
+
+507 0.0471::0.08608
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 507
+524
+
+508 0.0412::0.08316
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 508
+525
+
+509 0.0337::0.08469
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 509
+526
+
+510 0.03484::0.08366
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 510
+527
+
+511 0.03683::0.08441
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 511
+528
+
+512 0.03901::0.08478
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 512
+529
+
+513 0.03669::0.08951
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 513
+530
+
+514 0.03807::0.08635
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 514
+515 0.03695::0.08516
+
+531
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 515
+516 0.03486::0.08466
+
+deleting 516
+532
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+533
+
+517 0.04327::0.08947
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 517
+534
+
+518 0.03812::0.0859
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 518
+535
+
+519 0.03165::0.0864
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 519
+536
+
+520 0.04292::0.09348
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 520
+537
+
+521 0.036::0.08589
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 521
+538
+
+522 0.03484::0.08683
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 522
+539
+
+523 0.04034::0.08478
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 523
+540
+
+524 0.03897::0.1431
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 524
+541
+
+525 0.03719::0.08989
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 525
+542
+
+526 0.0383::0.08664
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 526
+543
+
+527 0.04102::0.09207
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 527
+544
+
+528 0.04114::0.08864
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 528
+545
+
+529 0.03417::0.08681
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 529
+546
+
+530 0.03721::0.08767
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 530
+547
+
+531 0.04102::0.08637
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 531
+548
+
+532 0.035::0.08842
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 532
+549
+
+533 0.04412::0.08717
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 533
+550
+
+534 0.03411::0.09092
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 534
+551
+
+535 0.03316::0.0888
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 535
+552
+
+536 0.03519::0.08672
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 536
+553
+
+537 0.03354::0.08686
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 537
+554
+
+538 0.04048::0.08934
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 538
+555
+
+539 0.04115::0.08766
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 539
+556
+
+540 0.04046::0.0965
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 540
+557
+
+541 0.04062::0.09082
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 541
+558
+
+542 0.03307::0.08975
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 542
+559
+
+543 0.04095::0.09057
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 543
+560
+
+544 0.03256::0.08894
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 544
+561
+
+545 0.03746::0.0915
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 545
+562
+
+546 0.03841::0.08926
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 546
+563
+
+547 0.03343::0.09279
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 547
+564
+
+548 0.04267::0.08999
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 548
+565
+
+549 0.04127::0.08798
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 549
+566
+
+550 0.04238::0.0899
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 550
+567
+
+551 0.04167::0.08768
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 551
+568
+
+552 0.035::0.0915
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 552
+569
+
+553 0.03588::0.09189
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 553
+570
+
+554 0.03838::0.09273
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 554
+571
+
+555 0.02956::0.08935
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 555
+572
+
+556 0.0347::0.09174
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 556
+573
+
+557 0.03574::0.08988
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 557
+574
+
+558 0.03843::0.08813
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 558
+575
+
+559 0.03698::0.0895
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 559
+576
+
+560 0.03246::0.08806
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 560
+577
+
+561 0.0392::0.09112
+
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 561
+578
+
+562 0.0379::0.08969
+
+ Logging Time from Files = 67.18
+Batch Update Time (File) = 67.18 Edge_count = 37911084
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+deleting 562
+579
+
+563 0.03173::0.08613
+
+564 0.0286::0.07145
+
+565 0.02942::0.06998
+
+566 0.02919::0.06995
+
+567 0.03003::0.07012
+
+568 0.02961::0.07016
+
+569 0.03066::0.07042
+
+570 0.0301::0.07038
+
+571 0.02871::0.07352
+
+572 0.02878::0.07444
+
+573 0.0277::0.07149
+
+574 0.02817::0.07076
+
+575 0.03085::0.07103
+
+576 0.02962::0.07099
+
+577 0.02765::0.0708
+
+578 0.03034::0.07055
+
+579 0.02934::0.06973
+
+ Level = 0 count = 1
+ Level = 1 count = 2
+ Level = 2 count = 36882
+ Level = 3 count = 883915
+ Level = 4 count = 261728
+ Level = 5 count = 1658
+ Level = 6 count = 9
+ Level = 7 count = 0
+ update_count = 579
