@@ -344,57 +344,20 @@ inline index_t file_and_insert(const string& textfile, ubatch_t* ubatch, int64_t
     index_t icount = 0;
     sid_t sid;
     ssize_t size = 0;
-    edgeT_t<T> edge;
-    
-    bool create_eid = IS_CREATE_EID(flags);
-    bool double_edge = IS_DOUBLE_EDGE(flags);
-    
-    if (true == create_eid) {
-        edgeT_t<dst_id_t> edge1;
-        if (true == double_edge) {
-            while((size = fread(&edge1, sizeof(edge1), 1, file)) > 0) {
-                edge.set_src(edge1.get_src());
-                set_dst(edge, edge1.get_dst());
-                set_weight_int(edge, icount); 
-                ubatch->batch_edge(&edge, i);
-                icount++;
-                //reverse edge
-                edge.set_src(get_dst(edge1));
-                set_dst(edge, get_src(edge1));
-                set_weight_int(edge, icount);
-                ubatch->batch_edge(&edge, i);
-                icount++;
-            }
 
-        } else { // no double edges
-            while((size = fread(&edge1, sizeof(edge1), 1, file)) > 0) {
-                edge.set_src(edge1.get_src());
-                set_dst(edge, edge1.get_dst());
-                set_weight_int(edge, icount); 
-                ubatch->batch_edge(&edge, i);
-                icount++;
-            }
-        } 
-    } else {
-        if (false == double_edge) {
-            while((size = fread(&edge, sizeof(edge), 1, file)) > 0) {
-                ubatch->batch_edge(&edge, i);
-                icount++;
-            }
-        } else {//double edges
-            sid_t src, dst;
-            while((size = fread(&edge, sizeof(edge), 1, file)) > 0) {
-                ubatch->batch_edge(&edge, i);
-                icount++;
-                //reverse edge
-                src = get_src(edge);
-                dst = get_dst(edge);
-                edge.set_src(src);
-                set_dst(edge, dst);
-                ubatch->batch_edge(&edge, i);
-                icount++;
-            }
-        }
+    //stinger is 64bit vertices, but we don't want to penalize it by storing id as 64bit in the file.
+    struct stinger_edge_t {
+        int32_t src;
+        int32_t dst;
+    
+    };
+    stinger_edge_t st_edge;
+    edgeT_t<T> edge;
+    while((size = fread(&st_edge, sizeof(st_edge), 1, file)) > 0) {
+        edge.src_id = st_edge.src;
+        edge.set_dst(st_edge.dst);
+        ubatch->batch_edge(&edge, i);
+        icount++;
     }
     fclose(file);
     return icount;

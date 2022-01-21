@@ -6,7 +6,7 @@ set(_gbench_sources
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/gbench/)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/gbench/include)
 add_executable(stinger_gbench ${_gbench_sources})
-target_compile_definitions(stinger_gbench PRIVATE B64=1)
+target_compile_definitions(stinger_gbench PRIVATE B64=1 DEL=1)
 target_link_libraries(stinger_gbench stinger_utils -ltbb)
 
 ##############################################################################

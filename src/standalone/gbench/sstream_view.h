@@ -13,6 +13,8 @@
 
 #include "view_interface.h"
 
+extern struct stinger* S;
+
 class sstream_t : public gview_t {
  public: 
     struct stinger *pgraph;
@@ -43,12 +45,12 @@ class sstream_t : public gview_t {
     void init_view(ubatch_t* a_ubatch, vid_t a_vcount, index_t a_flag, index_t slide_sz1) {
         gview_t::init_view(a_ubatch, a_vcount, a_flag, slide_sz1);
         
-        pgraph = 0; //TODO
+        pgraph = S;
     }
     
    
     inline sstream_t() {
-        pgraph = 0; //TODO
+        pgraph = 0;
     } 
     inline virtual ~sstream_t() {
         //We may need to free some internal memory.XXX

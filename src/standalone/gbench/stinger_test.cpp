@@ -48,27 +48,31 @@ status_t create_adjacency_snapshot(ubatch_t* ubatch)
         assert(0);
     }
 
+    #pragma omp parallel num_threads(THD_COUNT)
+    {
     vsnapshot_t* startv = ubatch->get_archived_vsnapshot();
-
-    if (startv) {
-        startv = startv->get_prev();
-    } else {
-        startv = ubatch->get_oldest_vsnapshot();
-    }
-
     vsnapshot_t* endv   = ubatch->get_to_vsnapshot();
     blog_t* blog = ubatch->blog;
-    
-    int updates_count = 0;
-	int deletes_count = 0;
-    vid_t src, dst;
-    index_t tail, marker, index;
-    edge_t* edge, *edges;
-    vid_t v_count = typekv->get_type_vcount(0);
+
     do {
+        if (startv) {
+            startv = startv->get_prev();
+        } else {
+            startv = ubatch->get_oldest_vsnapshot();
+        }
+
+        
+        int updates_count = 0;
+        int deletes_count = 0;
+        vid_t src, dst;
+        index_t tail, marker, index;
+        edge_t* edge, *edges;
+        vid_t v_count = typekv->get_type_vcount(0);
+
         edges = blog->blog_beg;
         tail = startv->tail;
         marker = startv->marker;
+        #pragma omp for
         for (index_t i = tail; i < marker; ++i) {
             index = (i & blog->blog_mask);
             edge = (edge_t*)((char*)edges + index*ubatch->edge_size);
@@ -87,17 +91,19 @@ status_t create_adjacency_snapshot(ubatch_t* ubatch)
             ++updates_count;
         }
     } while (startv != endv);
+    }
 
     
     //updating is required
     ubatch->update_marker();
-    cout << endv->id << endl << endl; 
+    //cout << endv->id << endl << endl; 
 
     return status;
 }
 
 int stinger_test(vid_t v_count, const string& idir, const string& odir)
 {
+    omp_set_num_threads(THD_COUNT);
     //Initialize the system. 
     //Return ubatch pointer here.
     S = stinger_new();
