@@ -146,7 +146,7 @@ class gview_t {
     inline void   set_algometa(void* a_meta) {algo_meta = a_meta;}
     inline void*  get_algometa() {return algo_meta;}
     virtual index_t get_snapmarker() { return update_marker; }
-    bool is_ddir() { return false;}
+    bool is_ddir() { return 1 == _dir;}
   
     status_t update_view_help() {
         status_t ret = eOK;

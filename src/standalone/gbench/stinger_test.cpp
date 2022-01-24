@@ -123,11 +123,14 @@ int stinger_test(vid_t v_count, const string& idir, const string& odir)
     
     //If system support adjacency store snapshot, create thread for index creation
     // Run analytics in separte thread. If adjacency store is non-snapshot, do indexing and analytics in seq.
-    index_t slide_sz = (1L << 16);
+    index_t slide_sz = BATCH_SIZE;
     gview_t* sstreamh = reg_sstream_view(ubatch, v_count, stream_serial_bfs_del<dst_id_t>, C_THREAD, slide_sz);
     
     //perform micro batching here using ubatch pointer
-    int64_t flags = SOURCE_BINARY;
+    int64_t flags = 0;
+    if (_source == 1) {
+        flags = SOURCE_BINARY;
+    }
     index_t total_edges = add_edges_from_dir<dst_id_t>(idir, ubatch, flags);
     ubatch->set_total_edges(total_edges);
     
@@ -150,7 +153,7 @@ void print_usage()
     help += " --threadcount --t: Thread count. Default: Cores in your system - 1\n";
     help += " --direction -d: Direction, 0 for undirected, 1 for directed, 2 for unidirected. Default: 0(undirected)\n";
     help += " --source  -s: Data source. 0 for text files, 1 for binary files. Default: text files\n";
-    help += " --residue or -r: Various meanings.\n";
+    help += " --batch-size or -b: Batch size and Slide Size (must be power of 2).\n";
 
     cout << help << endl;
 }
@@ -166,7 +169,7 @@ int main(int argc, char* argv[])
         {"odir",      required_argument,  0, 'o'},
         {"category",   required_argument,  0, 'c'},
         {"job",       required_argument,  0, 'j'},
-        {"residue",   required_argument,  0, 'r'},
+        {"batch-size",   required_argument,  0, 'b'},
         {"threadcount",  required_argument,  0, 't'},
         {"direction",  required_argument,  0, 'd'},
         {"source",  required_argument,  0, 's'},
@@ -184,7 +187,7 @@ int main(int argc, char* argv[])
     _part_count = 1;
 	THD_COUNT = omp_get_max_threads()-1;// - 3;
     
-	while ((o = getopt_long(argc, argv, "i:j:o:t:r:v:d:s:n:a:h", longopts, &index)) != -1) {
+	while ((o = getopt_long(argc, argv, "i:j:o:t:b:v:d:s:n:a:h", longopts, &index)) != -1) {
 		switch(o) {
 			case 'v':
 				#ifdef B64
@@ -215,12 +218,14 @@ int main(int argc, char* argv[])
                 break;
             case 'd':
                 sscanf(optarg, "%d", &_dir);
+                assert(_dir == 0);//supports only undirected graphs
                 break;
             case 's':
                 sscanf(optarg, "%d", &_source);
                 break;
-            case 'r':
-                sscanf(optarg, "%ld", &residue);
+            case 'b':
+                sscanf(optarg, "%ld", &BATCH_SIZE);
+                BATCH_MASK = BATCH_SIZE - 1;
                 break;
             case 'n':
                 sscanf(optarg, "%d", &_num_sources);
@@ -236,7 +241,7 @@ int main(int argc, char* argv[])
     cout << "output dir = " << odir << endl;
     cout << "Threads Count = " << THD_COUNT << endl;
     cout << "Global vcount = " << global_vcount << endl;
-    cout << "residue (multi-purpose) value) = " << residue << endl;
+    cout << "batch-size = " << BATCH_SIZE << "(must be power of two)" <<endl;
     switch (job) {
         case 0:
         stinger_test(global_vcount, idir, odir);
