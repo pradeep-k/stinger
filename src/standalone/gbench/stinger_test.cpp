@@ -106,7 +106,7 @@ int stinger_test(vid_t v_count, const string& idir, const string& odir)
     omp_set_num_threads(THD_COUNT);
     //Initialize the system. 
     //Return ubatch pointer here.
-    S = stinger_new();
+    S = stinger_new_gbench(v_count);
     int64_t* off = (int64_t*)calloc(v_count, sizeof(int64_t));
     int64_t* ind = 0;
     int64_t* weight = 0;
@@ -124,7 +124,7 @@ int stinger_test(vid_t v_count, const string& idir, const string& odir)
     //If system support adjacency store snapshot, create thread for index creation
     // Run analytics in separte thread. If adjacency store is non-snapshot, do indexing and analytics in seq.
     index_t slide_sz = BATCH_SIZE;
-    gview_t* sstreamh = reg_sstream_view(ubatch, v_count, stream_serial_bfs_del<dst_id_t>, C_THREAD, slide_sz);
+    gview_t* sstreamh = reg_sstream_view(ubatch, v_count, kickstarter_bfs_serial<dst_id_t>, C_THREAD, slide_sz);
     
     //perform micro batching here using ubatch pointer
     int64_t flags = 0;

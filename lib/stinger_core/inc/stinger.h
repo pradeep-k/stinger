@@ -36,6 +36,7 @@ struct stinger_config_t {
 
 /* STINGER creation & deletion */
 struct stinger *stinger_new (void);
+struct stinger *stinger_new_gbench (int64_t v_count);
 
 struct stinger *stinger_new_full (struct stinger_config_t * config);
 
