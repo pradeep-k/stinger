@@ -107,6 +107,7 @@ static void setWorkers(int n) {}
 */
 #endif
 
+/*
 #define granular_for(_i, _start, _end, _cond, _body)                           \
   {                                                                            \
     if (_cond) {                                                               \
@@ -120,6 +121,14 @@ static void setWorkers(int n) {}
         }                                                                      \
       }                                                                        \
     }                                                                          \
+  }
+*/
+
+#define granular_for(_i, _start, _end, _cond, _body)                           \
+  {                                                                            \
+        for (long _i = _start; _i < _end; _i++) {                            \
+          _body                                                                \
+        }                                                                      \
   }
 
 template <class ET> inline bool CAS(ET *ptr, ET oldv, ET newv) {
