@@ -67,7 +67,8 @@ void* kickstarter_bfs_serial(void* viewh)
         //cout << "BFS Time at Batch " << update_count << " = " << end - start << endl;
         cout << update_count
              << ":" << sstreamh->get_snapmarker()
-             << ":" << end - start << ":" << end1 - end  
+             //<< ":" << end - start 
+             << ":" << end1 - end  
              << ":" << end2 - end1 << endl;
     } 
     double endn = mywtime();

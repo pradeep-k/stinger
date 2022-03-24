@@ -43,15 +43,16 @@ sid_t    INVALID_SID  = 0xFFFFFFFF;
 //run adjacency store creation here.
 status_t create_adjacency_snapshot(ubatch_t* ubatch)
 {
+    double start = mywtime();
     status_t status  = ubatch->create_mbatch();
     if (0 == ubatch->reader_archive) {
         assert(0);
     }
 
+    vsnapshot_t* endv   = ubatch->get_to_vsnapshot();
     #pragma omp parallel num_threads(THD_COUNT)
     {
     vsnapshot_t* startv = ubatch->get_archived_vsnapshot();
-    vsnapshot_t* endv   = ubatch->get_to_vsnapshot();
     blog_t* blog = ubatch->blog;
 
     do {
@@ -96,8 +97,8 @@ status_t create_adjacency_snapshot(ubatch_t* ubatch)
     
     //updating is required
     ubatch->update_marker();
-    //cout << endv->id << endl << endl; 
-
+    double end = mywtime();
+    cout << endv->id << end -start << endl; 
     return status;
 }
 
@@ -114,7 +115,7 @@ int stinger_test(vid_t v_count, const string& idir, const string& odir)
     stinger_set_initial_edges (S, v_count, 0, off, ind, weight, NULL, NULL, -2);
 
     ubatch_t* ubatch = new ubatch_t(sizeof(edge_t),  1);
-    ubatch->alloc_edgelog(20); // 1 Million edges
+    ubatch->alloc_edgelog(17);
     ubatch->reg_archiving();
     
     //create typekv as it handles the mapping for vertex id (string to vid_t)
